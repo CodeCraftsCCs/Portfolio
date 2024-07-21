@@ -119,8 +119,8 @@ p{
 /* Logo */
 .header__container .profile .img__container .moving_circle {
 	position: absolute;
-	width: 50px;
-	height: 50px;
+	width: 55px;
+	height: 55px;
 	border-radius: 50%;
 	border: 2px dashed #90d3fb;
 	transform: translate(-50%, -50%);
@@ -134,6 +134,9 @@ p{
 	animation: moveCircle 5s linear infinite;
 }
 
+.footer__container .img__container:hover {
+	transform: scale(1.1);
+}
 @keyframes moveCircle {
 	0% {
 		transform: translate(-50%, -50%) rotate(0deg);
