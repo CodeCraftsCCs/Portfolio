@@ -40,7 +40,7 @@
 }
 
 .hero .hero__text {
-	font-size: var(--text-xx-large);
+	font-size: var(--text-large);
 }
 
 .hero__container .text__content {
