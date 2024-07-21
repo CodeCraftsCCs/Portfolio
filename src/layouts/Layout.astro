@@ -33,5 +33,11 @@ import { mainMenu } from '../components/data/menuData.js';
 			<span> Pardon my chaos; I am giving my portfolio a facelift. </span>
 		</div>
 		<slot />
+
+		<script>
+			window.addEventListener('load', function () {
+				document.body.classList.add('loaded');
+			});
+		</script>
 	</body>
 </html>

@@ -99,6 +99,22 @@ p{
 	max-width: 117.8rem;
 }
 
+/* Initial state for direct children of the body */
+body > * {
+	opacity: 0;
+	transform: scale(0.8);
+	transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+
+  /* Final state for direct children of the body */
+body.loaded > * {
+	opacity: 1;
+	transform: scale(1);
+  }
+  
+  
+  
+
 
 /* Before Header */
 .div-under-construction-text{
