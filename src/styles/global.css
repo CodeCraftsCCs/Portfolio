@@ -98,3 +98,17 @@ p{
 .max__width {
 	max-width: 117.8rem;
 }
+
+.div-under-construction-text{
+	position: absolute;
+    top: 0px;
+    width: 100%;
+    height: fit-content;
+    font-size: small;
+    align-self: center;
+    text-align: center;
+    z-index: 1;
+    background-color: #301562;
+    font-weight: 500;
+    color: white;
+}

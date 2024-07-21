@@ -1,5 +1,5 @@
 ---
-import "../styles/global.css"
+import '../styles/global.css';
 interface Props {
 	title: string;
 }
@@ -23,11 +23,15 @@ import { mainMenu } from '../components/data/menuData.js';
 			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
 			rel="stylesheet"
 		/>
-		<script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+		<script
+			src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"
+		></script>
 		<title>{title}</title>
 	</head>
 	<body class="flex flex-col">
-
-			<slot/>
+		<div class="div-under-construction-text">
+			<span> Pardon my chaos; I am giving my portfolio a facelift. </span>
+		</div>
+		<slot />
 	</body>
 </html>
