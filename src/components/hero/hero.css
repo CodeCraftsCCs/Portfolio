@@ -43,6 +43,10 @@
 	font-size: var(--text-large);
 }
 
+.hero .hero_one_liner{
+	font-size: var(--text-x-large);
+}
+
 .hero__container .text__content {
 	font-weight: 600;
 	display: flex;

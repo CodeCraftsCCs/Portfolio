@@ -11,7 +11,9 @@ const { name } = Astro.props;
 			width="40px"
 			height="40px"
 		/>
+		<div class="moving_circle"></div>
 	</div>
+
 	<h3 class="color__gradiente header__title">
 		{name}
 	</h3>
@@ -22,11 +24,12 @@ const { name } = Astro.props;
 		border-radius: 50%;
 		overflow: hidden;
 		transition: 0.35s transform;
+		display: inline-block;
 	}
 
-	.img__container:hover {
+	/* .img__container:hover {
 		transform: scale(1.1);
-	}
+	} */
 
 	.profile {
 		display: flex;

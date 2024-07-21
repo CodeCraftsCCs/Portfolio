@@ -99,6 +99,8 @@ p{
 	max-width: 117.8rem;
 }
 
+
+/* Before Header */
 .div-under-construction-text{
 	position: absolute;
     top: 0px;
@@ -111,4 +113,32 @@ p{
     background-color: #301562;
     font-weight: 500;
     color: white;
+}
+
+
+/* Logo */
+.header__container .profile .img__container .moving_circle {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 2px dashed #90d3fb;
+	transform: translate(-50%, -50%);
+	animation: moveCircle 30s linear infinite;
+	pointer-events: none;
+	top: 34px;
+	left: 40px;
+}
+
+.header__container .profile .img__container:hover .moving_circle {
+	animation: moveCircle 5s linear infinite;
+}
+
+@keyframes moveCircle {
+	0% {
+		transform: translate(-50%, -50%) rotate(0deg);
+	}
+	100% {
+		transform: translate(-50%, -50%) rotate(360deg);
+	}
 }
