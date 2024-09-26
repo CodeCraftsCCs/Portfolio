@@ -13,6 +13,8 @@
     "@astrojs/react": "^3.3.0",
     "@astrojs/sitemap": "^3.1.4",
     "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/vercel": "^7.8.1",
+    "@supabase/supabase-js": "^2.45.4",
     "astro": "^4.6.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -20,7 +22,6 @@
   },
   "description": "![Portada](image-1.png)",
   "main": "index.astro",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SofiDevO/portfolio-astrosofidev-garrux.git"
