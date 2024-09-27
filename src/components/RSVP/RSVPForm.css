@@ -1,0 +1,99 @@
+html, body {
+	height: 100%!important;
+	width: 100%!important;
+	margin: 0!important;
+	padding: 0!important;
+	/* background-color: #BDC3C7!important; */
+	font-family: 'Raleway'!important;
+	}
+	.top {
+		background-color: #264356!important;
+		height: 200px!important;
+		margin:0!important;
+		padding:0!important;
+		box-shadow: 2px 2px 4px rgb(0, 0, 0, .25)!important;
+	}
+	
+	.form {
+		height: 590px!important;
+		width: 400px!important;
+		background-color: #fff!important;
+		margin: -110px auto!important;
+		border-radius: 10px!important;
+		color: #666!important;
+		padding: 0px 0px!important;
+		box-shadow: 2px 2px 4px rgb(0, 0, 0, .25)!important;
+	}
+	
+	.info {
+		padding: 10px!important;
+	}
+	
+	h1, h2, p {
+		text-align: center!important;
+		padding: 0px!important;
+		margin: 5px 5px!important;
+	}
+	
+	h2 {
+		font-family: 'Great Vibes', cursive!important;
+		font-weight: 100!important;
+	}
+	
+	p.line {
+		margin: 0px auto 20px auto!important;
+		color: #999!important;
+	}
+	
+	.form input {
+		font-size: 15px!important;
+		color: #666!important;
+		padding: 6px!important;
+		margin: 25px auto 20px!important;
+		display: block!important;
+		width: 75%!important;  
+	}
+
+	.form select {
+		font-size: 15px!important;
+		color: #666!important;
+		padding: 6px!important;
+		margin: 25px auto 20px!important;
+		display: block!important;
+		width: 75%!important;  
+	}
+	
+	input:focus {
+		outline: 0!important;
+	}
+	
+	.button button {
+		display: inline-block!important;
+		width: 400px!important;
+	}
+	button {
+		color: #666!important;
+		background-color: #ffbdc7!important;
+		border: none!important;
+		font-family: 'Raleway'!important;
+		font-size: 18px!important;
+		font-weight: 600!important;
+		padding: 15px 32px!important;
+		width: 200px!important;
+		margin: 20px auto 0px auto!important; 
+		float:left!important;
+	}
+	
+	button.accept {
+		border-radius: 0px 0px 0px 10px!important;
+		border-right: solid 1px #cc919a!important;
+	}
+	
+	button:hover {
+		background-color: #cc919a!important;
+		transition: .5s!important;
+	}
+	
+	button:focus {
+		outline: 0!important;
+	}
