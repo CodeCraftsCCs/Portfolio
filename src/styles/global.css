@@ -28,7 +28,7 @@
 	--secondary-100: #ffffff;
 
 	/* colores de las propiedades */
-	--surface: #4F4360;
+	--surface: #4f4360;
 	--surface-variant: #e0d8e7;
 	--surface-dim: #998da9;
 	--surface-bridge: #d6cdee;
@@ -67,7 +67,7 @@
 		#df44e7 100%
 	);
 }
-*{
+* {
 	box-sizing: border-box;
 }
 html {
@@ -83,7 +83,7 @@ body {
 main {
 	align-self: center;
 }
-p{
+p {
 	color: var(--primary-100);
 	font-size: var(--text-general);
 }
@@ -104,33 +104,28 @@ body > * {
 	opacity: 0;
 	transform: scale(0.8);
 	transition: opacity 1s ease-out, transform 1s ease-out;
-  }
+}
 
-  /* Final state for direct children of the body */
+/* Final state for direct children of the body */
 body.loaded > * {
 	opacity: 1;
 	transform: scale(1);
-  }
-  
-  
-  
-
-
-/* Before Header */
-.div-under-construction-text{
-	position: absolute;
-    top: 0px;
-    width: 100%;
-    height: fit-content;
-    font-size: small;
-    align-self: center;
-    text-align: center;
-    z-index: 1;
-    background-color: #301562;
-    font-weight: 500;
-    color: white;
 }
 
+/* Before Header */
+.div-under-construction-text {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: fit-content;
+	font-size: small;
+	align-self: center;
+	text-align: center;
+	z-index: 1;
+	background-color: #301562;
+	font-weight: 500;
+	color: white;
+}
 
 /* Logo */
 .header__container .profile .img__container .moving_circle {
