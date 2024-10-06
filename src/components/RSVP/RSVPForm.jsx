@@ -66,6 +66,7 @@ export default function RsvpForm() {
             onChange={(e) => setHeadCount(e.target.value)}
             required  />
         </div>
+        {message && <p>{message}</p>}
         <button className ="accept" type="submit">RSVP</button>
 
         {/* <label>
@@ -100,7 +101,7 @@ export default function RsvpForm() {
         <button type="submit">RSVP</button> */}
       </form>
 
-      {message && <p>{message}</p>}
+      
     </div>
   );
 }
