@@ -74,14 +74,17 @@ body {
 	width: 100% !important;
 	margin: 0 !important;
 	padding: 0 !important;
-	/* background-color: #BDC3C7!important; */
+	background: var(--hero-bg);
+	animation: presentation 3s linear forwards;
 	font-family: 'Raleway' !important;
 }
 
 .top {
-	background: var(--hero-bg);
-	animation: presentation 3s linear forwards;
-	height: 200px !important;
+	background-image: url('../../img/diwali_cover_2.jpg');
+	background-repeat: no-repeat; /* No repeat */
+	background-position: center; /* Center the image */
+	background-size: cover;
+	height: 300px !important;
 	margin: 0 !important;
 	padding: 0 !important;
 	box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.25) !important;
@@ -153,6 +156,7 @@ input:focus {
 	display: inline-block !important;
 	width: 400px !important;
 }
+
 button {
 	color: #dcd8fc !important;
 	border: none !important;
