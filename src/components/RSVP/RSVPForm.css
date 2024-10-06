@@ -101,9 +101,9 @@ body {
 	flex-direction: column;
 	margin-top: -40px;
 	width: 400px;
-	background-color: #fff;
+	background-color: #350a2a;
 	border-radius: 10px;
-	color: #666;
+	color: #eabedf;
 	padding: 0px 0px;
 	box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.25);
 }
@@ -127,25 +127,32 @@ h2 {
 
 p.line {
 	margin: 0px auto 20px auto;
-	color: #999;
+	color: #eabedf;
 }
 
 .RSVPForm input {
 	font-size: 15px;
-	color: #666;
+	color: #eabedf;
 	padding: 6px;
 	margin: 25px auto 20px;
 	display: block;
 	width: 75%;
+	background: #5d294e;
+}
+
+.RSVPForm input::placeholder {
+	color: #eabedf;
 }
 
 .RSVPForm select {
 	font-size: 15px;
-	color: #666;
+	color: #eabedf;
 	padding: 6px;
 	margin: 25px auto 20px;
 	display: block;
-	width: 80%;
+	width: 75%;
+	min-height: 34.5px;
+	background: #5d294e;
 }
 
 input:focus {
@@ -158,7 +165,6 @@ input:focus {
 }
 
 button {
-	color: #dcd8fc;
 	border: none;
 	font-family: 'Raleway';
 	font-size: 18px;
@@ -171,8 +177,8 @@ button {
 
 button.accept {
 	border-radius: 0px 0px 10px 10px;
-	border-right: solid 1px #8664ee;
-	background-color: #8664ee;
+	border-right: solid 1px #3e0c31;
+	background-color: #5d294e;
 	width: -webkit-fill-available;
 }
 
