@@ -70,24 +70,24 @@
 
 html,
 body {
-	height: 100% !important;
-	width: 100% !important;
-	margin: 0 !important;
-	padding: 0 !important;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
 	background: var(--hero-bg);
 	animation: presentation 3s linear forwards;
-	font-family: 'Raleway' !important;
+	font-family: 'Raleway';
 }
 
 .top {
 	background-image: url('../../img/diwali_cover_2.jpg');
-	background-repeat: no-repeat; /* No repeat */
-	background-position: center; /* Center the image */
-	background-size: cover;
-	height: 300px !important;
-	margin: 0 !important;
-	padding: 0 !important;
-	box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.25) !important;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #24003d;
+	min-height: 300px;
+	margin: 0;
+	padding: 0;
+	box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.25);
 }
 
 .divFormParent {
@@ -100,77 +100,77 @@ body {
 	display: flex;
 	flex-direction: column;
 	margin-top: -40px;
-	width: 400px !important;
-	background-color: #fff !important;
-	border-radius: 10px !important;
-	color: #666 !important;
-	padding: 0px 0px !important;
-	box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.25) !important;
+	width: 400px;
+	background-color: #fff;
+	border-radius: 10px;
+	color: #666;
+	padding: 0px 0px;
+	box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.25);
 }
 
 .info {
-	padding: 10px !important;
+	padding: 10px;
 }
 
 h1,
 h2,
 p {
-	text-align: center !important;
-	padding: 0px !important;
-	margin: 5px 5px !important;
+	text-align: center;
+	padding: 0px;
+	margin: 5px 5px;
 }
 
 h2 {
-	font-family: 'Great Vibes', cursive !important;
-	font-weight: 100 !important;
+	font-family: 'Great Vibes', cursive;
+	font-weight: 100;
 }
 
 p.line {
-	margin: 0px auto 20px auto !important;
-	color: #999 !important;
+	margin: 0px auto 20px auto;
+	color: #999;
 }
 
 .RSVPForm input {
-	font-size: 15px !important;
-	color: #666 !important;
-	padding: 6px !important;
-	margin: 25px auto 20px !important;
-	display: block !important;
-	width: 75% !important;
+	font-size: 15px;
+	color: #666;
+	padding: 6px;
+	margin: 25px auto 20px;
+	display: block;
+	width: 75%;
 }
 
 .RSVPForm select {
-	font-size: 15px !important;
-	color: #666 !important;
-	padding: 6px !important;
-	margin: 25px auto 20px !important;
-	display: block !important;
-	width: 80% !important;
+	font-size: 15px;
+	color: #666;
+	padding: 6px;
+	margin: 25px auto 20px;
+	display: block;
+	width: 80%;
 }
 
 input:focus {
-	outline: 0 !important;
+	outline: 0;
 }
 
 .button button {
-	display: inline-block !important;
-	width: 400px !important;
+	display: inline-block;
+	width: 400px;
 }
 
 button {
-	color: #dcd8fc !important;
-	border: none !important;
-	font-family: 'Raleway' !important;
-	font-size: 18px !important;
-	font-weight: 600 !important;
-	padding: 15px 32px !important;
-	margin: 20px auto 0px auto !important;
+	color: #dcd8fc;
+	border: none;
+	font-family: 'Raleway';
+	font-size: 18px;
+	font-weight: 600;
+	padding: 15px 32px;
+	margin: 20px auto 0px auto;
 	display: flex;
 	justify-content: center;
 }
 
 button.accept {
-	border-radius: 0px 0px 10px 10px !important;
+	border-radius: 0px 0px 10px 10px;
 	border-right: solid 1px #8664ee;
 	background-color: #8664ee;
 	width: -webkit-fill-available;
@@ -178,9 +178,46 @@ button.accept {
 
 button:hover {
 	opacity: 0.7;
-	transition: 0.5s !important;
+	transition: 0.5s;
 }
 
 button:focus {
-	outline: 0 !important;
+	outline: 0;
+}
+
+@media (max-width: 480px) {
+	.divFormParent {
+		overflow: hidden;
+		padding-bottom: 0;
+	}
+
+	.top {
+		max-height: 200px;
+		min-height: 200px;
+	}
+
+	.RSVPForm {
+		width: 90%;
+		align-items: center;
+		margin-top: 0px;
+		overflow: auto;
+	}
+
+	.RSVPForm input,
+	.RSVPForm select {
+		width: 95%;
+	}
+
+	button {
+		width: 100%;
+	}
+
+	h1,
+	h2 {
+		font-size: var(--text-large);
+	}
+
+	p {
+		font-size: var(--text-small);
+	}
 }
