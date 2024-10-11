@@ -4,6 +4,8 @@ export const mainMenu = [
      //{link:"/rsvp", content:"RSVP"}
      // {link:"#portafolio", content:"Portfolio", icon:"carbon:portfolio"},
      // {link:"#blog", content:"Blog", icon:"mdi:blog"}
+
+     
 ]
 export const menuBlog = [
      {link:"/", content:"Home", icon:"lucide:home"},
