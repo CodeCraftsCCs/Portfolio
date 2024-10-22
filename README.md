@@ -151,4 +151,4 @@ For more information and detailed documentation, visit the [homepage](https://gi
 
 Enjoy building your portfolio! If you have any questions or run into any issues, feel free to reach out.
 
-This is just to comment, delete it tomorrow. try to type asdf, type it accurate and fast. cool you're doing good.
+Delete this tomorrow
