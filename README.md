@@ -17,7 +17,7 @@ Welcome to the Portfolio Template built with Astro! This responsive template all
 
 ## Usage
 
-To add new elements to your portfolio, you need to add them in `/src/data/portfolioData.js`.
+To add new elements to your portfolio, you need to add them in `/src/data/portfolioData.js`
 
 ## Portfolio Data Format
 
