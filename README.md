@@ -154,5 +154,3 @@ Enjoy building your portfolio! If you have any questions or run into any issues,
 enjoy commits
 
 commit
-
-type something
