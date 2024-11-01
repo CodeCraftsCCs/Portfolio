@@ -150,3 +150,5 @@ For more information and detailed documentation, visit the [homepage](https://gi
 ---
 
 Enjoy building your portfolio! If you have any questions or run into any issues, feel free to reach out.
+
+enjoy commits
